@@ -6,7 +6,7 @@ from starlette.responses import RedirectResponse
 from starlette.routing import Route
 
 # if using Heroku, change this to https://YOURAPP.herokuapp.com
-OTREE_SERVER = "https://riskexp.herokuapp.com"
+OTREE_SERVER = "https://otree.herokuapp.com"
 
 ROOM_NAME = 'econ101'
 
