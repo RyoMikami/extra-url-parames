@@ -6,6 +6,7 @@ from starlette.responses import RedirectResponse
 from starlette.routing import Route
 
 # if using Heroku, change this to https://YOURAPP.herokuapp.com
+#OTREE_SERVER = "http://localhost:8000"
 OTREE_SERVER = "https://otree.herokuapp.com"
 
 ROOM_NAME = 'econ101'
@@ -17,7 +18,7 @@ ROOM_NAME = 'econ101'
 PARTICIPANT_LABEL_PARAM = 'participant_label'
 
 # required if you set OTREE_AUTH_LEVEL
-# REST_KEY = ''
+#REST_KEY = ''
 REST_KEY = os.getenv('OTREE_REST_KEY')
 
 GET = requests.get
